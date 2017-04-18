@@ -14,16 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Example Podcast
+title: Insanely Easy Podcasting Hosting
 description: >
-  This is an example of how to publish a Podcast using **<a href="https://www.cloudstitch.com">Cloudstitch</a>**
+  This is an example of how to publish a Podcast from Google Drive using Cloudstitch.
 copyright: Cloudstitch
 url: http://localhost:4000
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: cloudstitch
+github_username:  cloudstitch
 
 # Build settings
 markdown: kramdown
