@@ -17,7 +17,7 @@ sitemap:
     {% capture audiolink %}{{siteurl}}/Episodes/{{post.File}}{% endcapture %}
     <item>
       <title>{{ post.Title | xml_escape }}</title>
-      <description><![CDATA[ {{ post.content }} ]]></description>
+      <description><![CDATA[ {{ post.Description }} ]]></description>
       <pubDate>{{ post.Date | date_to_rfc822 }}</pubDate>
       <link>{{audiolink}}</link>
       <guid isPermaLink="true">{{audiolink}}</guid>
