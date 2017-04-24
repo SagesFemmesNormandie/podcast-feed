@@ -18,7 +18,7 @@ sitemap:
       <title>{{ post.Title | xml_escape }}</title>
       <description><![CDATA[ {{ post.content }} ]]></description>
       <pubDate>{{ post.Date | date_to_rfc822 }}</pubDate>
-      <link>{{ post.url | prepend: siteurl }}</link>
+      <link>{{siteurl}}/Episodes/{{post.File}}</link>
       <guid isPermaLink="true">{{siteurl}}/Episodes/{{post.File}}</guid>
     </item>
     {% endfor %}
