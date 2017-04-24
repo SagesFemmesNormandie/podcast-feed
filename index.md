@@ -17,5 +17,5 @@ This project helps you create the easiest podcast hosting site imaginable. Once 
 This site is already hosting a podcast! The URL is:
 
 {% capture siteurl %}{% if site.github.url %}{{ site.github.url }}{% else %}{{ site.url }}{% endif %}{% endcapture %}
-<a href="{{ siteurl }}/rss.xml">{{ siteurl }}/rss.xml</a>
+<a href="{{ siteurl }}/rss.xml">{{ siteurl }}/feed.xml</a>
 
